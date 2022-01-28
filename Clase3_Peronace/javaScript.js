@@ -1,4 +1,4 @@
-let numero = prompt('Introduzca un número menor a 100:');
+let numero = prompt('Introduzca un número:');
 
 for(let i = 0; i < i+1; i++){
     numero++;
