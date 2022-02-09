@@ -12,22 +12,38 @@ function solicitarInformacion() {
     alert('Bienvenido/a ' +nombre+' a WINE HOUSE. Como ahora sabemos que la cepa que más le apetece es la ' +cepa+ ', queremos hacerle saber que va a poder encontrar en nuestra web, los vinos más exquisitos tales como este.');
 }
 
+
 solicitarInformacion();
 
-//Constructor de Vino
-function Vino(tipo, cepa, año) {
-    this.tipo = tipo;
-    this.cepa = cepa;
-    this.año = año;
+//Clase Vinoteca con un constructo de Vino
+class Vinoteca{
+    constructor(vino) {
+    this.tipo = vino.tipo;
+    this.cepa = vino.cepa;
+    this.año = vino.año;
+    this.alcohol = vino.alcohol;
+    }
+
+    printMessage() {
+        console.log(
+          `Tipo: ${this.tipo} - Cepa: ${this.cepa} - Año: ${this.año} - % ALC: ${this.alcohol}`
+        )
+    }
 }
 
-const vino1 = new Vino("Tinto", "Malbec", 2013);
-const vino2 = new Vino("Tinto", "Cabernet Sauvignon", 2013);
-const vino3 = new Vino("Tinto", "Cabernet Franc", 2013);
-const vino4 = new Vino("Tinto", "Merlot", 2013);
-const vino5 = new Vino("Tinto", "Pinot Noir", 2013);
-const vino6 = new Vino("Blanco", "Chardonnay", 2013);
-const vino7 = new Vino("Tinto", "Malbec", 2013);
-const vino8 = new Vino("Tinto", "Malbec", 2013);
-const vino9 = new Vino("Tinto", "Malbec", 2013);
-const vino10 = new Vino("Tinto", "Malbec", 2013);
+const vino1 = {
+    tipo: "Tinto",
+    cepa: "Malbec",
+    año: 2013,
+    alcohol: 12,
+};
+const vino1 = {
+    tipo: "Tinto",
+    cepa: "Malbec",
+    año: 2013,
+    alcohol: 12,
+};
+
+
+const vinoUno = new Vinoteca(vino1);
+vinoUno.printMessage();
