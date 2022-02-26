@@ -5,16 +5,16 @@ function prevencionEdad(){
 
 prevencionEdad();
 
-//Función que solicita al usuario su nombre y cepa preferida.
-function solicitarInformacion() {
-    let nombreUsuario = prompt('Por favor, ingrese su nombre: ');
-    let cepaPreferida = prompt('¿Cuál es la cepa que usted prefiere? ');
-    const nodoInfo = document.createElement("h3");
-    nodoInfo.innerHTML = `Bienvenido/a a WINE HOUSE ${nombreUsuario} . 
-    Como ahora sabemos que la cepa que más le apetece es la ${cepaPreferida}, queremos hacerle saber que va a poder encontrar en nuestra web las bebidas más exquisitas tales como esta.`;
-    titulo.appendChild(nodoInfo);
-}
-solicitarInformacion();
+// //Función que solicita al usuario su nombre y cepa preferida.
+// function solicitarInformacion() {
+//     let nombreUsuario = prompt('Por favor, ingrese su nombre: ');
+//     let cepaPreferida = prompt('¿Cuál es la cepa que usted prefiere? ');
+//     const nodoInfo = document.createElement("h3");
+//     nodoInfo.innerHTML = `Bienvenido/a a WINE HOUSE ${nombreUsuario} . 
+//     Como ahora sabemos que la cepa que más le apetece es la ${cepaPreferida}, queremos hacerle saber que va a poder encontrar en nuestra web las bebidas más exquisitas tales como esta.`;
+//     titulo.appendChild(nodoInfo);
+// }
+// solicitarInformacion();
 
 // //Clase Vinoteca con un constructo de Vino
 // class Vinoteca{
@@ -332,7 +332,7 @@ for (const producto of productos) {
       <p class="año">AÑO: ${producto.año}</p>
       <p class="alcohol">ALC: ${producto.alcohol} %</p>
       <p class="precio">PRECIO: $ ${producto.precio},00</p>
-      <button id="btnAgregar">Comprar</button>;
+      <button id="btnAgregar">Comprar</button>
       `;
     listado.appendChild(contenedor);
 }
