@@ -6,7 +6,7 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Tienda</title>
 </head>
 
@@ -44,11 +44,11 @@
             <hr>
         </div>
     </header>
-    <!-- START SECTION STORE -->
+    <!-- PRODUCTOS DE LA TIENDA -->
     <section class="store">
       <div class="container">
           <div class="items">
-            <div>BLANCOS</div>
+            <div class="item-title">BLANCOS</div>
               <div class="row">
                   <div class="col-12 col-md-6">
                       <div class="item shadow mb-4">
@@ -91,7 +91,7 @@
                   </div>
               </div>
               </div>
-              <div>TINTOS</div>
+              <div class="item-title">TINTOS</div>
               <div class="row">
                   <div class="col-12 col-md-6">
                       <div class="item shadow mb-4">
@@ -156,7 +156,7 @@
                   </div>
                 </div>
               </div>
-              <div>ESPUMANTES</div>
+              <div class="item-title">ESPUMANTES</div>
               <div class="row">
                   <div class="col-12 col-md-6">
                       <div class="item shadow mb-4">
@@ -182,21 +182,19 @@
           </div>
       </div>
   </section>
-    
-            
-    <!-- END SECTION STORE -->
-    <!-- START SECTION SHOPPING CART -->
+  <!-- FIN SECTION PRODUCTOS -->
+  <!-- SECCION CARRITO DE COMPRAS -->
     <section class="shopping-cart">
         <div class="container">
             <h1 class="text-center">CARRITO</h1>
             <hr>
             <div class="row">
-                <div class="col-6">
+                <div class="col-7">
                     <div class="shopping-cart-header">
                         <h6>Producto</h6>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-1">
                     <div class="shopping-cart-header">
                         <h6 class="text-truncate">Precio</h6>
                     </div>
@@ -207,12 +205,12 @@
                     </div>
                 </div>
             </div>
-            <!-- ? START SHOPPING CART ITEMS -->
+            <!--  ITEMS CARRITO DE COMPRAS -->
             <div class="shopping-cart-items shoppingCartItemsContainer">
             </div>
-            <!-- ? END SHOPPING CART ITEMS -->
+            <!--  FIN ITEMS CARRITO DE COMPRAS -->
 
-            <!-- START TOTAL -->
+            <!-- TOTAL -->
             <div class="row">
                 <div class="col-12">
                     <div class="shopping-cart-total d-flex align-items-center">
@@ -236,12 +234,10 @@
                     </div>
                 </div>
             </div>
+            <!-- FIN TOTAL -->
 
-            <!-- END TOTAL -->
-
-            <!-- START MODAL COMPRA -->
-            <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
-                aria-hidden="true">
+            <!-- MODAL COMPRA -->
+            <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -259,22 +255,17 @@
                     </div>
                 </div>
             </div>
-            <!-- END MODAL COMPRA -->
-
-
+            <!-- FIN MODAL COMPRA -->
         </div>
-
     </section>
-    <!-- END SECTION SHOPPING CART -->
+    <!-- FIN SECCION CARRITO DE COMPRAS -->
 
 
-    <!-- START FOOTER -->
-    <footer class="bg-dark p-3 mt-5">
-        <p class="text-center m-0 text-muted">Tienda video juegos</p>
+    <!-- FOOTER -->
+    <footer class="bg-light p-3 mt-5">
+        <p class="text-center m-0 text-muted">WINE HOUSE</p>
     </footer>
-    <!-- END FOOTER -->
-
-
+    <!-- FIN FOOTER -->
 
 
     <!-- SCRIPTS -->
@@ -288,7 +279,10 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 
-        
-        <script src="javaScript.js"></script>
+      
+      <script src="javaScript.js"></script>
 
 </body>
+
+</html>
+
