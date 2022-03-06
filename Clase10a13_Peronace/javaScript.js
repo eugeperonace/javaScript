@@ -161,6 +161,7 @@
 
 
 
+
  //Accedo a la clase que tiene el botón "AÑADIR AL CARRITO", le agrego el evento "click" a ese botón y la función para agregar el producto al carrito.
 const addToShoppingCartButtons = document.querySelectorAll('.addToCart');
 addToShoppingCartButtons.forEach((addToCartButton) => {
@@ -184,6 +185,13 @@ function addToCartClicked(event) {
     const itemImage = item.querySelector('.item-image').src;
 
     addItemToShoppingCart(itemTitle, itemPrice, itemImage);
+    Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: '¡Producto agregaro correctamente!',
+        showConfirmButton: false,
+        timer: 1500
+      })
 }
 
 //FUCIÓN PARA AGREGAR PRODUCTO AL CARRITO
@@ -276,5 +284,8 @@ function comprarButtonClicked() {
 }
 
    
+
+
+
 
 
