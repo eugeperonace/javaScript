@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "nombre": "COPAS VINO BLANCO",
+      "imagen": "https://www.rcristal.com/wp-content/uploads/2021/11/6-Copas-Gastronomica-Vino-Blanco.jpg",
+      "precio": "6.000,00"
+    },
+    {
+      "id": 2,
+      "nombre": "COPAS CABERNET",
+      "imagen": "https://www.rcristal.com/wp-content/uploads/2021/11/6-Copas-Gran-Cabernet.jpg",
+      "precio": "4.000,00"
+    },
+    {
+      "id": 3,
+      "nombre": "VASOS MIK",
+      "imagen": "https://www.rcristal.com/wp-content/uploads/2021/11/6-vasos-mikonos-360-cc.jpg",
+      "precio": "5.000,00"
+    },
+    {
+      "id": 4,
+      "nombre": "BOTELLON 550ML",
+      "imagen": "https://www.rcristal.com/wp-content/uploads/2021/12/A-medida.jpg",
+      "precio": "2.999,00"
+    },
+    {
+      "id": 5,
+      "nombre": "COPA ROSE",
+      "imagen": "https://www.rcristal.com/wp-content/uploads/2021/12/Copa-magnifica-rosa.jpg",
+      "precio": "3.000,00"
+    },
+    {
+      "id": 6,
+      "nombre": "COPA SOMMELIER",
+      "imagen": "https://www.rcristal.com/wp-content/uploads/2021/10/6-Copas-Sublym-55-cl..jpg",
+      "precio": "2.500,00"
+    },
+    {
+      "id": 7,
+      "nombre": "VASO PINOT",
+      "imagen": "https://www.rcristal.com/wp-content/uploads/2021/09/6-vasos-reveal-up-40-cl.jpg",
+      "precio": "3.900,00"
+    },
+    {
+      "id": 8,
+      "nombre": "GRAN DECANTADOR",
+      "imagen": "https://www.rcristal.com/wp-content/uploads/2019/07/Decanter-Grand-Vin-Cristal-1500-Cc.jpg",
+      "precio": "4.800,00"
+    },
+    {
+        "id": 9,
+        "nombre": "DECANTADOR LUNA",
+        "imagen": "https://www.rcristal.com/wp-content/uploads/2019/07/Decanter-Grand-Finale.jpg",
+        "precio": "5.000,00"
+      },
+      {
+        "id": 10,
+        "nombre": "COPA MALBEC",
+        "imagen": "https://www.rcristal.com/wp-content/uploads/2019/07/Copa-Macaron-600-cc.jpg",
+        "precio": "3.000,00"
+      }
+  ]

@@ -1,0 +1,93 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.item-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 15px;
+}
+
+.item-details > .item-price {
+  margin: 0;
+}
+
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+}
+
+/* Productos Coctelería */
+#listado {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  flex-wrap: wrap;
+}
+
+.producto {
+  width: 250px;
+  margin-right: 10px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.producto img {
+  width: 100%;
+}
+
+.imagen-producto {
+  width: 230px;
+  height: 230px;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nombre {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  color: rgb(46, 44, 54);
+}
+
+.precio {
+  font-style: italic;
+  font-size: 24px;
+}
+
